@@ -106,7 +106,7 @@ public class UserController {
 			}
 
 		}else {
-			throw new RuntimeException("Refresh token missin");
+			throw new RuntimeException("Refresh token missing");
 		}
 
 	}
