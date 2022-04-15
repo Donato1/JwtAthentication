@@ -24,7 +24,7 @@ public class JWTApplication {
 	PasswordEncoder passwordEncoder() {
 		return new BCryptPasswordEncoder();
 	}
-	/*
+	/* Generare popolamento database
 	@Bean
 	CommandLineRunner run(UserService userService) {
 		
